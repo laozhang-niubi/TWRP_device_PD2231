@@ -1,0 +1,15 @@
+# OrangeFox Configuration
+# vivo PD2231 / iQOO Neo7 (V2231A)
+# Platform: MT6983 (Dimensity 9000+) | Android 13
+# Screen: 6.78" AMOLED, 1080x2400 (FHD+), Centered Punch-hole
+
+# Display
+OF_DISPLAY_RES := 1080x2400
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+OF_CLOCK_POS := 1
+
+# Security
+OF_DISABLE_DM_VERITY_FORCED_ENCRYPTION := true
+OF_USE_MAGISKBOOT_FOR_ALL_PATCHES := true
