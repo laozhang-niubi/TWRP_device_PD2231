@@ -1,4 +1,4 @@
-#
+﻿#
 # Copyright (C) 2024 The Android Open Source Project
 # Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
@@ -107,3 +107,9 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 160
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_SECONDARY_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+
