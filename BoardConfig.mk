@@ -115,3 +115,17 @@ TW_DEFAULT_BRIGHTNESS := 160
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_SECONDARY_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 
+
+# Slim down recovery image
+TW_HAS_DOWNLOAD_MODE := false
+TW_EXCLUDE_SUPERSU := true
+TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_APEX := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_PYTHON := true
+TW_NO_EXFAT_FUSE := true
+TW_NO_LEGACY_PROPS := true
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_USB_STORAGE := true
+TW_OEM_BUILD := true
